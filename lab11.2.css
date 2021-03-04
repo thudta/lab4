@@ -1,0 +1,28 @@
+
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color:rgba(128, 128, 128, 0.726);
+}
+tr:nth-child(1){
+    background-color: skyblue;
+    color:black;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: center;
+}
+tr:nth-child(2){
+    background-color: skyblue;
+    color:black;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid blue
+}
+table{
+    border-collapse: collapse;
+    padding-bottom: 5px;
+}

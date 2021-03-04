@@ -1,0 +1,24 @@
+.line1{
+    background-color: green;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+
+}
+.line2{
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.wid{
+    width: 70px;
+}
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}

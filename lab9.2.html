@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>LAB15</title>
+        <meta charset="utf-8">
+        <link href="index.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">
+        <link href="sanpham.css" rel="stylesheet">
+        <link href="menudung.css" rel="stylesheet">
+        <link href="dangky.css" rel="stylesheet">
+    </header>
+    <body>
+        <div class="container">
+            <header>
+                <div class="company-info">
+                    <h2>FPT POLYTECHNIC</h2>
+                    <h3>THỰC HỌC - THỰC NGHIỆP</h3>
+                </div>
+                <div class="top-right">
+                    <a href="lab9.1.html">ĐĂNG NHẬP | </a> 
+                    <a href="lab9.2.html">ĐĂNG KÝ | </a> 
+                    <a href="#">QUÊN MẬT KHẨU</a> 
+                </div>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="#">LAB10</a>
+                        <ul>
+                            <li><a href="lab10.1.html">LAB10.1</a></li>
+                            <li><a href="lab10.2.html">LAB10.2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">LAB11</a>
+                        <ul>
+                            <li><a href="lab11.1.html">LAB11.1</a></li>
+                            <li><a href="lab11.2.html">LAB11.2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="lab12.2.html">LAB12</a></li>
+                    <li><a href="lab13.html">LAB13</a></li>
+                    <li><a href="#">LAB14</a>
+                        <ul>
+                            <li><a href="lab14.1.html">LAB14.1</a></li>
+                            <li><a href="lab14.2.html">LAB14.2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        <div class="form-group">
+            <h2>ĐĂNG KÝ THÀNH VIÊN </h2>
+            <from action="#" method="post" enctype="multipart/form-data">
+                <div>Họ và tên:</div>
+                <input class="form-control" type="text" name="id" required><br/>
+
+                <br><div>Giới tính:</div>
+                <input class="form-control" type="radio" name="gt" value="Nam"> Nam
+                <input class="form-control" type="radio" name="gt" value="Nữ"> Nữ
+                <input class="form-control" type="radio" name="gt" value="Khác"> Khác <br/>
+
+                <br><div>Hình ảnh:</div>
+                <button class="button" type="submit">Choose file</button> No file chosen </br>
+
+                <br><div>Quốc tịch:</div>
+                <input class="tt" type="select" name="qt" required > <br/>
+
+                <br><div>Sở thích:</div>
+                <input class="form-control" type="checkbox" name="st" value="ThểThao"> Thể Thao
+                <input class="form-control" type="checkbox" name="st" value="DuLịch"> Du Lịch
+                <input class="form-control" type="checkbox" name="st" value="Âmnhạc"> Âm Nhạc
+                <input class="form-control" type="checkbox" name="st" value="ẨmThực"> Ẩm Thực</br>
+
+                <br><div>Ghi chú:</div>
+                <textarea name="noidung" id="nd" cols="30" rows="10"></textarea>
+                <hr>
+
+                <button class="button" type="submit">Đăng ký</button>
+                <button class="button" type="submit">Nhập lại</button></br>
+            </from>
+        </div>
+        <footer>
+            FPT Polytechnic © 2017. All rights reserved.
+        </footer>
+    </body>
+</html>
